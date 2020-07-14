@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75CCC3E124BD6F51005AE8B1 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CCC3E024BD6F51005AE8B1 /* GameState.swift */; };
+		75CCC3E324BD7D5F005AE8B1 /* rps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75CCC3E224BD7D5F005AE8B1 /* rps.gif */; };
 		75ED2F1824BD6AC600064985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED2F1724BD6AC600064985 /* AppDelegate.swift */; };
 		75ED2F1A24BD6AC600064985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED2F1924BD6AC600064985 /* SceneDelegate.swift */; };
 		75ED2F1C24BD6AC600064985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED2F1B24BD6AC600064985 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		75CCC3E024BD6F51005AE8B1 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		75CCC3E224BD7D5F005AE8B1 /* rps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rps.gif; sourceTree = "<group>"; };
 		75ED2F1424BD6AC600064985 /* RPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75ED2F1724BD6AC600064985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75ED2F1924BD6AC600064985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		75ED2F1624BD6AC600064985 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				75CCC3E224BD7D5F005AE8B1 /* rps.gif */,
 				75ED2F1724BD6AC600064985 /* AppDelegate.swift */,
 				75ED2F1924BD6AC600064985 /* SceneDelegate.swift */,
 				75ED2F1B24BD6AC600064985 /* ViewController.swift */,
@@ -211,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CCC3E324BD7D5F005AE8B1 /* rps.gif in Resources */,
 				75ED2F2424BD6AC700064985 /* LaunchScreen.storyboard in Resources */,
 				75ED2F2124BD6AC700064985 /* Assets.xcassets in Resources */,
 				75ED2F1F24BD6AC600064985 /* Main.storyboard in Resources */,
