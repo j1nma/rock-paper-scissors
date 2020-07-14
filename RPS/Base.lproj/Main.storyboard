@@ -37,16 +37,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <state key="normal" title="👊"/>
+                                                <connections>
+                                                    <action selector="playedRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4My-GF-Gn2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCh-lh-Za9">
                                                 <rect key="frame" x="95" y="0.0" width="75" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <state key="normal" title="🖐"/>
+                                                <connections>
+                                                    <action selector="playedPaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fGD-hY-72M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiA-Ns-X83">
                                                 <rect key="frame" x="190" y="0.0" width="75" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <state key="normal" title="✌️"/>
+                                                <connections>
+                                                    <action selector="playedScissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YBH-Vc-xzv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -64,6 +73,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="appSign" destination="Mdd-I5-ag4" id="Qum-cS-Jg4"/>
+                        <outlet property="gameStatus" destination="Iht-qd-tyu" id="FeI-nm-LI4"/>
+                        <outlet property="playAgainButton" destination="UT3-3a-J0N" id="bpw-cJ-UK2"/>
+                        <outlet property="playerPaperButton" destination="RCh-lh-Za9" id="alg-6D-3BO"/>
+                        <outlet property="playerRockButton" destination="LAa-z8-pcc" id="sZS-3c-UAJ"/>
+                        <outlet property="playerScissorsButton" destination="iiA-Ns-X83" id="uHD-fv-CgA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
