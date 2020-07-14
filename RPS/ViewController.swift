@@ -32,5 +32,9 @@ class ViewController: UIViewController {
     
     @IBAction func playedScissors(_ sender: Any) {
     }
+    
+    func updateUI() {
+        
+    }
 }
 
