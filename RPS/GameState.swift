@@ -10,7 +10,7 @@ import Foundation
 enum GameState {
     case start, win, lose, draw
     
-    var messsage: String {
+    var message: String {
         switch self {
         case .start:
             return "Rock, paper or scissors?"

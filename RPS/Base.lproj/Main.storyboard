@@ -62,6 +62,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UT3-3a-J0N">
                                         <rect key="frame" x="97" y="320.5" width="71" height="30"/>
                                         <state key="normal" title="Play Again"/>
+                                        <connections>
+                                            <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nln-hv-thl"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -75,7 +78,7 @@
                     </view>
                     <connections>
                         <outlet property="appSign" destination="Mdd-I5-ag4" id="Qum-cS-Jg4"/>
-                        <outlet property="gameStatus" destination="Iht-qd-tyu" id="FeI-nm-LI4"/>
+                        <outlet property="gameStatusLabel" destination="Iht-qd-tyu" id="FeI-nm-LI4"/>
                         <outlet property="playAgainButton" destination="UT3-3a-J0N" id="bpw-cJ-UK2"/>
                         <outlet property="playerPaperButton" destination="RCh-lh-Za9" id="alg-6D-3BO"/>
                         <outlet property="playerRockButton" destination="LAa-z8-pcc" id="sZS-3c-UAJ"/>
