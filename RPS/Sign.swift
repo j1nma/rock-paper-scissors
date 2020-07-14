@@ -17,4 +17,28 @@ enum Sign {
             case .scissors: return "✌️"
         }
     }
+    
+    func compare(other: Sign) -> GameState {
+        if self == other { return GameState.draw }
+        
+        if self == .rock {
+            if other == .paper {
+                return GameState.lose
+            } else {
+                return GameState.win
+            }
+        } else if self == .paper {
+            if other == .rock {
+                return GameState.win
+            } else {
+                return GameState.lose
+            }
+        } else {
+            if other == .rock {
+                return GameState.lose
+            } else {
+                return GameState.win
+            }
+        }
+    }
 }
