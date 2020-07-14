@@ -77,7 +77,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="appSign" destination="Mdd-I5-ag4" id="Qum-cS-Jg4"/>
+                        <outlet property="appSignLabel" destination="Mdd-I5-ag4" id="Qum-cS-Jg4"/>
                         <outlet property="gameStatusLabel" destination="Iht-qd-tyu" id="FeI-nm-LI4"/>
                         <outlet property="playAgainButton" destination="UT3-3a-J0N" id="bpw-cJ-UK2"/>
                         <outlet property="playerPaperButton" destination="RCh-lh-Za9" id="alg-6D-3BO"/>
